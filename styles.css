@@ -60,6 +60,47 @@ p{
     float: right;
 }
 
+.navbar a.contact-active {
+    color: rgb(0, 0, 0); /* Change color for the active page */
+    font-weight: bold;
+    border-bottom: 5px solid #3874ab;
+    background-color: #3DA2CE;
+  }
+
+
+.navbar a.home-active {
+    color: rgb(0, 0, 0); /* Change color for the active page */
+    font-weight: bold;
+    border-bottom: 5px solid #9d1d0d;
+    background-color: #D65444;
+}
+
+
+  .navbar a.ug-active {
+    color: rgb(0, 0, 0); /* Change color for the active page */
+    font-weight: bold;
+    border-bottom: 5px solid #b86e12;
+    background-color: #DF8D29;
+  }
+
+
+.navbar a.faq-active {
+    color: rgb(0, 0, 0); /* Change color for the active page */
+    font-weight: bold;
+    border-bottom: 5px solid #bd9014;
+    background-color: #E0B12B;
+  }
+
+
+  .navbar a.troubleshooting-active {
+    color: rgb(0, 0, 0); /* Change color for the active page */
+    font-weight: bold;
+    border-bottom: 5px solid #3d790f;
+    background-color: #6DAD3B;
+  }
+
+  
+
 .guide-step {
     display: flex;
     align-items: center;
