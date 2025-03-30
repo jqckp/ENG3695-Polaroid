@@ -12,6 +12,98 @@ body {
     padding: 0 6%;
 }
 
+.feedback-collection h1{
+    margin-bottom: 0px;
+    display: flex;
+    border: 8px solid #e3d4ba;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(to right, 
+    #D65444 0%, #d48f3f 20%, 
+    #DF8D29 20%, #dfb529 40%, 
+    #E0B12B 40%, #6DAD3B 60%, 
+    #6DAD3B 60%, #3DA2CE 80%, 
+    #3DA2CE 80%, #2e90ba 100% 
+    );
+    
+}
+
+
+.feedback-collection h3{
+    margin-top: 0px;
+    display: flex;
+    background: #e3d4ba;
+    justify-content: center;
+    color: rgba(18, 17, 17, 0.74);
+    
+    
+}
+
+.feedback-collection .fields{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.feedback-collection .fields form .text-input{
+    display: flex;
+    justify-content: center;
+    background-color: #e3d4ba;
+    border-top: 20px solid rgb(244, 238, 238);
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    height: 250px;
+    width: 750px;
+    
+}
+
+.feedback-collection .fields form .satisfaction-rating{
+    display: flex;
+    justify-content: center;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    background-color: #e3d4ba;
+   
+    
+}
+
+
+.feedback-collection .fields form .survey{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.feedback-collection .fields form .submission{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  
+    
+}
+
+
+
+
+.feedback-collection .fields form .survey{
+    background-color: #e3d4ba;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    
+}
+
+.feedback-collection .fields form .submission{
+    background-color: #e3d4ba;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 60px solid white;
+    margin-bottom: 20px;
+    
+}
+
+
 
 h1{
     font-size: 48px;
@@ -141,10 +233,10 @@ p{
 }
 
 .image img {
-    width: 100%; /* Ensures the image scales with its container */
-    max-width: 300px; /* Prevents it from exceeding its container */
-    height: auto; /* Maintains aspect ratio */
-    max-height: 250px; /* Ensures it doesn't get too tall */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    max-height: 250px; 
     border-radius: 8px;
 } 
 
@@ -157,4 +249,15 @@ p{
     content: "";
     display: table;
     clear: both;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    background: #e3d4ba;
+    color: black;
+    text-align: center;
+    padding: 10px;
 }
